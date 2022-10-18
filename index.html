@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script src="script.js"></script>
+    <script src="api.js"></script>
+    <script src="template.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+
+    <div class="main-container">
+        <div class="headline-main-container">
+            <div class="headline-img">
+                <img src="img/Pokedex.png">
+            </div>
+        </div>
+        <div class="search-button">
+            <input type="text" placeholder="search your Pokemon...">
+            <button>Go</button>
+        </div>
+        <div id="pokemon-main-container-small" class="pokemon-main-container-small"></div>
+    </div>
+
+    <div id="pokemon-main-container-big" class="pokemon-main-container-big d-none"></div>
+</body>
+
+</html>
